@@ -9,7 +9,7 @@
 #define PIN_BUTTON_DOWN           A2
 #define PIN_BUTTON_ACTION         A3
 #define PIN_VALVE_AIR             2
-#define PIN_VALVE_C02             3
+#define PIN_VALVE_CO2             3
 #define PIN_VALVE_WATER           4
 #define PIN_VALVE_CLEANER_IN      5
 #define PIN_VALVE_SANITIZER_IN    6
@@ -32,6 +32,10 @@
 #define CTRL_PUMP           0b100000000
 
 #define CONFIG_DRAIN            (CTRL_DRAIN)
+#define CONFIG_DRAIN_SANITIZER  (CTRL_PUMP + CTRL_SANITIZER_IN + CTRL_DRAIN)
+#define CONFIG_DRAIN_CLEANER    (CTRL_PUMP + CTRL_CLEANER_IN + CTRL_DRAIN)
+#define CONFIG_FILL_SANITIZER   (CTRL_PUMP + CTRL_SANITIZER_OUT + CTRL_WATER)
+#define CONFIG_FILL_CLEANER     (CTRL_PUMP + CTRL_CLEANER_OUT + CTRL_WATER)
 #define CONFIG_RINCE            (CTRL_PUMP + CTRL_WATER + CTRL_DRAIN)
 #define CONFIG_RINCE_PURGE      (CTRL_AIR + CTRL_DRAIN)
 #define CONFIG_RINCE_PURGE_CO2  (CTRL_CO2 + CTRL_DRAIN)
@@ -39,7 +43,6 @@
 #define CONFIG_CLEAN_PURGE      (CTRL_AIR + CTRL_CLEANER_OUT)
 #define CONFIG_SANITIZE         (CTRL_PUMP + CTRL_SANITIZER_IN + CTRL_SANITIZER_OUT)
 #define CONFIG_SANITIZE_PURGE   (CTRL_AIR + CTRL_SANITIZER_OUT)
-#define CONFIG_PRESSURIZE       (CTRL_CO2)
 #define CONFIG_END              0
 
 #define LED_BLINK_PERIOD    2
@@ -54,41 +57,87 @@ typedef struct mode_s {
   step_t *steps;
 } mode_t;
 
-step_t STEPS_DRAIN[] = {
-  {CONFIG_DRAIN, 3},
-  {CONFIG_END, 0}
-};
-
-step_t STEPS_KEG_FULL[] = {
+step_t STEPS_WASH_KEG[] = {
   {CONFIG_DRAIN, 10},
   {CONFIG_RINCE, 10},
-  {CONFIG_RINCE_PURGE, 10},
+  {CONFIG_RINCE_PURGE, 20},
   {CONFIG_CLEAN, 10},
-  {CONFIG_CLEAN_PURGE, 10},
-  {CONFIG_RINCE, 10},
+  {CONFIG_CLEAN_PURGE, 15},
+  {CONFIG_CLEAN, 10},
+  {CONFIG_CLEAN_PURGE, 15},
+  {CONFIG_CLEAN, 10},
+  {CONFIG_CLEAN_PURGE, 20},
+  {CONFIG_RINCE, 3},
   {CONFIG_RINCE_PURGE, 10},
-  {CONFIG_SANITIZE, 10},
-  {CONFIG_SANITIZE_PURGE, 10},
+  {CONFIG_RINCE, 7},
+  {CONFIG_RINCE_PURGE, 10},
   {CONFIG_RINCE, 10},
-  {CONFIG_RINCE_PURGE_CO2, 10},
-  {CONFIG_PRESSURIZE, 10},
+  {CONFIG_RINCE_PURGE, 20},
+  {CONFIG_SANITIZE, 10},
+  {CONFIG_SANITIZE_PURGE, 15},
+  {CONFIG_SANITIZE, 10},
+  {CONFIG_SANITIZE_PURGE, 15},
+  {CONFIG_SANITIZE, 10},
+  {CONFIG_SANITIZE_PURGE, 20},
+  {CONFIG_RINCE, 10},
+  {CONFIG_RINCE_PURGE_CO2, 30},
   {CONFIG_END, 0}
 };
 
-step_t STEPS_DRAFT[] = {
-  {CONFIG_RINCE, 10},
-  {CONFIG_RINCE_PURGE, 10},
-  {CONFIG_SANITIZE, 10},
-  {CONFIG_SANITIZE_PURGE, 10},
-  {CONFIG_RINCE, 10},
-  {CONFIG_RINCE_PURGE, 10},
+step_t STEPS_DRAFT_RINCE[] = {
+  {CTRL_PUMP + CTRL_WATER, 30},
+  {CTRL_AIR, 10},
+  {CONFIG_END, 0}
+};
+
+step_t STEPS_DRAFT_SANITIZER[] = {
+  {CTRL_PUMP + CTRL_SANITIZER_IN, 30},
+  {CTRL_AIR, 10},
+  {CONFIG_END, 0}
+};
+
+step_t STEPS_DRAFT_CLEANER[] = {
+  {CTRL_PUMP + CTRL_CLEANER_IN, 30},
+  {CTRL_AIR, 10},
+  {CONFIG_END, 0}
+};
+
+step_t STEPS_DRAIN_KEG[] = {
+  {CONFIG_DRAIN, 10},
+  {CONFIG_RINCE_PURGE, 60},
+  {CONFIG_END, 0}
+};
+
+step_t STEPS_DRAIN_SANITIZER[] = {
+  {CONFIG_DRAIN_SANITIZER, 120},
+  {CONFIG_END, 0}
+};
+
+step_t STEPS_DRAIN_CLEANER[] = {
+  {CONFIG_DRAIN_CLEANER, 120},
+  {CONFIG_END, 0}
+};
+
+step_t STEPS_FILL_SANITIZER[] = {
+  {CONFIG_FILL_SANITIZER, 120},
+  {CONFIG_END, 0}
+};
+
+step_t STEPS_FILL_CLEANER[] = {
+  {CONFIG_FILL_CLEANER, 120},
   {CONFIG_END, 0}
 };
 
 mode_t MODES[] = {
-  {"Vidange", STEPS_DRAIN},
-  {"Fut", STEPS_KEG_FULL},
-  {"Tireuse", STEPS_DRAFT}
+  {"Lavage fut", STEPS_WASH_KEG},
+  {"Tireuse rincage", STEPS_DRAFT_RINCE},
+  {"Tireuse desinf.", STEPS_DRAFT_SANITIZER},
+  {"Tireuse deter.", STEPS_DRAFT_CLEANER},
+  {"Vidange fut", STEPS_DRAIN_KEG},
+  {"Vidange desinf.", STEPS_DRAIN_SANITIZER},
+  {"Vidange deter.", STEPS_DRAIN_CLEANER},
+  {"Rempl. desinf.", STEPS_FILL_SANITIZER},
+  {"Rempl. deter.", STEPS_FILL_CLEANER},
 };
 
 int MODES_NUMBER = sizeof(MODES) / sizeof(mode_t);
@@ -161,15 +210,13 @@ void select()
 void select_update()
 {
   int new_mode = mode;
+  int inc;
 
   buttonUp.update();
   if( buttonUp.fell() ) {
-    new_mode--;
-  }
-  
-  buttonDown.update();
-  if( buttonDown.fell() ) {
-    new_mode++;
+    buttonDown.update();
+    inc = buttonDown.fell() ? -1 : 1;
+    new_mode += inc;
   }
   
   buttonAction.update();
@@ -196,17 +243,53 @@ int seconds()
   return millis() / 1000;
 }
 
+void controls_set_state(unsigned int config, int state, int delay_time)
+{
+  if(config & CTRL_AIR) {
+    digitalWrite(PIN_VALVE_AIR, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_CO2) {
+    digitalWrite(PIN_VALVE_CO2, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_WATER) {
+    digitalWrite(PIN_VALVE_WATER, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_CLEANER_IN) {
+    digitalWrite(PIN_VALVE_CLEANER_IN, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_SANITIZER_IN) {
+    digitalWrite(PIN_VALVE_SANITIZER_IN, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_CLEANER_OUT) {
+    digitalWrite(PIN_VALVE_CLEANER_OUT, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_SANITIZER_OUT) {
+    digitalWrite(PIN_VALVE_SANITIZER_OUT, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_DRAIN) {
+    digitalWrite(PIN_VALVE_DRAIN, state);
+    delay(delay_time);
+  }
+  if(config & CTRL_PUMP) {
+    digitalWrite(PIN_PUMP, state);
+    delay(delay_time);
+  }
+}
+
 void controls_set(unsigned int config)
 {
-  digitalWrite(PIN_VALVE_AIR, !(config & CTRL_AIR));
-  digitalWrite(PIN_VALVE_C02, !(config & CTRL_CO2));
-  digitalWrite(PIN_VALVE_WATER, !(config & CTRL_WATER));
-  digitalWrite(PIN_VALVE_CLEANER_IN, !(config & CTRL_CLEANER_IN));
-  digitalWrite(PIN_VALVE_SANITIZER_IN, !(config & CTRL_SANITIZER_IN));
-  digitalWrite(PIN_VALVE_CLEANER_OUT, !(config & CTRL_CLEANER_OUT));
-  digitalWrite(PIN_VALVE_SANITIZER_OUT, !(config & CTRL_SANITIZER_OUT));
-  digitalWrite(PIN_VALVE_DRAIN, !(config & CTRL_DRAIN));
-  digitalWrite(PIN_PUMP, !(config & CTRL_PUMP));
+  // Turn off all controls to avoid temporary overconsumption
+  controls_set_state(~config, HIGH, 0);
+  
+  // Turn on all needed controls and wait slowly to avoid temporary overconsumption
+  controls_set_state(config, LOW, 200);
 }
 
 unsigned int step_set(int index)
@@ -318,7 +401,7 @@ void setup()
   pinMode(PIN_BUTTON_DOWN, INPUT_PULLUP);
   pinMode(PIN_BUTTON_ACTION, INPUT_PULLUP);
   pinMode(PIN_VALVE_AIR, OUTPUT);
-  pinMode(PIN_VALVE_C02, OUTPUT);
+  pinMode(PIN_VALVE_CO2, OUTPUT);
   pinMode(PIN_VALVE_WATER, OUTPUT);
   pinMode(PIN_VALVE_CLEANER_IN, OUTPUT);
   pinMode(PIN_VALVE_SANITIZER_IN, OUTPUT);
