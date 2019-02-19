@@ -227,7 +227,9 @@ L'évier fixé sur le dessus de la laveuse était prévu pour intégrer une boul
 
 ## Démo
 
-En cours
+[Vidéo sur le fonctionnement général](https://vimeo.com/318256040)
+
+[Vidéo sur la partie électronique](https://vimeo.com/318257333)
 
 ## Documentation
 
