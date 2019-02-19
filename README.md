@@ -1,10 +1,23 @@
 # Laveuse de fûts DIY
 
+* [Démo](#démo)
+* [Plomberie](#plomberie)
+* [Électronique](#électronique)
+* [Programmation](#programmation)
+* [Structure](#structure)
+* [Composants utilisés et coût](#composants-utilisés-et-coût)
+* [Améliorations](#améliorations)
+* [Références](#références)
 
-## Conception détaillée
+## Démo
+
+Parce qu'une vidéo vaut parfois mieux qu'un long discours :
+
+* [Vidéo sur le fonctionnement général](https://vimeo.com/318256040)
+* [Vidéo sur la partie électronique](https://vimeo.com/318257333)
 
 
-### Plomberie
+## Plomberie
 
 Les cuves produits sont réalisées avec des marmites Bergland 50L bien connues des brasseurs amateurs. Des kits d'étanchéité Canard rouge et des raccords cannelés permettent de réaliser très simplement des entrées et sorties pour les produits.
 
@@ -39,32 +52,32 @@ Les sorties des têtes de lavage sont reliées à un collecteur de produits. Il 
 
 ![Collecteur](/images/collecteur.jpg)
 
-#### Plus d'infos
+### Plus d'infos
 
-##### Électrovannes
+#### Électrovannes
 
 ![Électrovanne](/images/electrovanne.jpg)
 
 Les électrovannes utilisées sont en inox pour supporter le passage de produits agressifs. Nous avons choisi d'utiliser des électrovannes à solénoïde qui ont le double avantage de commuter rapidement et d'être moins chères que d'autres modèles. Nous avons aussi choisi des modèles pilotables en 12V pour éviter la présence de 230V sur la partie hydraulique.
 
-##### Pompe
+#### Pompe
 
 On utilise une pompe Novax 20B car on en avait une sous la main qui ne servait à rien. Pas sûr que ce soit le meilleur choix, mais elle s'avère tenir le coup et envoyer une pression suffisante.
 La pompe n'a pas besoin d'être amorcée "manuellement" car le premier cycle est un cycle de rinçage ce qui amorce la pompe grâce à la pression du réseau d'eau.
 
-##### Tuyaux
+#### Tuyaux
 
 La majorité des tuyaux utilisés sont des tuyaux Thermoclean 100 de diamètre 19mm qui supportent les produits corrosifs.
 Les tuyaux reliés aux têtes de lavage sont cependant en simple cristal car le thermoclean est trop rigide et empêche la manipulation des fûts.
 La partie gaz est en tube cristal de diamètre 15mm.
 
-##### Raccords
+#### Raccords
 
 Tous les raccords sont en inox et étanchéifiés avec du teflon pour mieux supporter les produits corrosifs.
 
 Pour percer les cuves et y fixer une vanne, [c'est ici](https://www.microbrassage.com/wp-content/uploads/2015/03/notice_kit_etancheite-.pdf).
 
-### Électronique
+## Électronique
 
 La laveuse aurait pu fonctionner avec des vannes manuelles comme certains modèles commerciaux très basiques, mais pour un investissement assez faible, on peut automatiser tout ça et ainsi s'économiser beaucoup de temps de travail pas très valorisant.
 
@@ -99,9 +112,9 @@ Enfin l'alimentation générale est équipée d'un bouton coup de poing en cas d
 ![Arrêt d'urgence](/images/urgence.jpg)
 
 
-#### Plus d'infos
+### Plus d'infos
 
-##### Arduino
+#### Arduino
 
 L'arduino utilisé sur notre laveuse est un modèle Uno, mais d'autres modèles peuvent être utilisés.
 
@@ -126,7 +139,7 @@ Voici les pins utilisées sur cet arduino :
 | 10 | Relai pompe |
 | 11 | LED |
 
-##### Câblage
+#### Câblage
 
 ![Câblage](/images/cablage1.jpg)
 ![Câblage façade](/images/cablage2.jpg)
@@ -154,13 +167,13 @@ Câbles électriques 2,5mm² pour :
 - interrupteur général
 - alimentation thermoplongeur
 
-##### Relier les électrovannes aux relais
+#### Relier les électrovannes aux relais
 
 Les relais sont reliés aux électrovannes et à l'alimentation grâce à des dominos. La diode de roue libre qui protège les relais est également placée à cet endroit.
 
 ![Dominos](/images/dominos.jpg)
 
-### Programme
+## Programmation
 
 Avant de pouvoir programmer l'arduino, il faut installer les logiciels arduino sur votre ordinateur.
 Vous avez le choix entre :
@@ -196,7 +209,7 @@ Lorsqu'on appuie sur le bouton d'action pendant un mode, le mode s'arrête et on
 
 Lorsque la laveuse est débranchée puis rebranchée, le dernier mode utilisé est choisi par défaut dans le menu.
 
-### Assemblage
+## Structure
 
 La structure de la laveuse est réalisée sur un cadre en acier fait de cornières soudées maison et fixée sur des roulettes.
 
@@ -225,21 +238,17 @@ La partie électronique est dissimulée dans un boîtier en plastique et fixée 
 
 L'évier fixé sur le dessus de la laveuse était prévu pour intégrer une boule de lavage et permettre le lavage des fûts ouverts ou des fûts de types sodakegs ou tout autre contenant, mais ça n'a pas été encore mis en place faute de temps.
 
-## Démo
+## Composants utilisés et coût
 
-[Vidéo sur le fonctionnement général](https://vimeo.com/318256040)
+À venir
 
-[Vidéo sur la partie électronique](https://vimeo.com/318257333)
+## Améliorations
 
-## Documentation
+À venir
 
-Références
+## Références
 
-Liste des composants
-
-Coût de fabrication
-
-Améliorations réalisées et réalisables
+À venir
 
 
 
