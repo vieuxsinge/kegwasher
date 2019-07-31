@@ -16,8 +16,8 @@ Ce dépôt contient la partie technique pour la fabrication d'une laveuse de fû
 Parce qu'une vidéo vaut parfois mieux qu'un long discours :
 
 * [Laveuse en cours de fonctionnement](https://peertube.servebeer.com/videos/watch/00c410c9-e059-47cc-8bc2-f5a8decc9740)
-* [Vidéo sur le fonctionnement général](https://vimeo.com/318256040)
-* [Vidéo sur la partie électronique](https://vimeo.com/318257333)
+* [Fonctionnement général](https://vimeo.com/318256040)
+* [Description de la partie électronique](https://vimeo.com/318257333)
 
 
 ## Plomberie
