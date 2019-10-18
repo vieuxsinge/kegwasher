@@ -22,7 +22,7 @@ Parce qu'une vidéo vaut parfois mieux qu'un long discours :
 
 ## Plomberie
 
-Les cuves produits sont réalisées avec des marmites Bergland 50L bien connues des brasseurs amateurs. Des kits d'étanchéité Canard rouge et des raccords cannelés permettent de réaliser très simplement des entrées et sorties pour les produits.
+Les cuves produits sont réalisées avec des marmites Bergland 50L bien connues des brasseurs amateurs. Des kits d'étanchéité <a href="http://microbrassage.com">Canard rouge</a> et des raccords cannelés permettent de réaliser très simplement des entrées et sorties pour les produits.
 
 ![Cuves produit](/images/cuves.jpg)
 
@@ -243,7 +243,946 @@ L'évier fixé sur le dessus de la laveuse était prévu pour intégrer une boul
 
 ## Composants utilisés et coût
 
-À venir
+<table>
+    <tr>
+      <th>Composant</th>
+      <th>Fournisseur</th>
+      <th>Quantité</th>
+      <th>PU (HT)</th>
+      <th>Total (HT)</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Structure</th>
+    </tr>
+    <tr>
+      <td>Cornière et carré acier</td>
+      <td>Ferrailleur</td>
+      <td align="right">1</td>
+      <td align="right">80,00 €</td>
+      <td align="right">80,00 €</td>
+    </tr>
+    <tr>
+      <td>Peinture acier</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">30,00 €</td>
+      <td align="right">30,00 €</td>
+    </tr>
+    <tr>
+      <td>Roulette</td>
+      <td>Récup</td>
+      <td align="right">4</td>
+      <td align="right">10,00 €</td>
+      <td align="right">40,00 €</td>
+    </tr>
+    <tr>
+      <td>Boîtier électrique</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">37,00 €</td>
+      <td align="right">37,00 €</td>
+    </tr>
+    <tr>
+      <th align="left" colspan="4">Sous-total</th>
+      <th align="right">187,00 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Plomberie</th>
+    </tr>
+    <tr>
+      <td>Têtes de lavage</td>
+      <td>Maisonneuve</td>
+      <td align="right">2</td>
+      <td align="right">52,00 €</td>
+      <td align="right">104,00 €</td>
+    </tr>
+    <tr>
+      <td>Pompe Novax 20B</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">79,17 €</td>
+      <td align="right">79,17 €</td>
+    </tr>
+    <tr>
+      <td>Electrovannes solénoide inox 3/4’’ 12V</td>
+      <td><a href="https://www.amazon.fr/U-S-Solid-Électrovanne-Normalement-entraînement/dp/B00DQ24GS6/">Amazon</a></td>
+      <td align="right">6</td>
+      <td align="right">26,46 €</td>
+      <td align="right">158,76 €</td>
+    </tr>
+    <tr>
+      <td>Electrovannes solénoide inox 1/2’’ 12V</td>
+      <td><a href="https://www.amazon.fr/U-S-Solid-%C3%89lectrovanne-Normalement-entra%C3%AEnement/dp/B00APDA6Z6/">Amazon</a></td>
+      <td align="right">2</td>
+      <td align="right">26,66 €</td>
+      <td align="right">53,32 €</td>
+    </tr>
+    <tr>
+      <td>Tuyau thermoclean 100 19mm x 20m</td>
+      <td><a href="http://www.raccordspro.com/fr/553-tuyau-thermoclean-100.html">Raccords pro</a></td>
+      <td align="right">1</td>
+      <td align="right">174,20 €</td>
+      <td align="right">174,20 €</td>
+    </tr>
+    <tr>
+      <td>Tuyau crystal 12mm x 5m</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">9,08 €</td>
+      <td align="right">9,08 €</td>
+    </tr>
+    <tr>
+      <td>Clapet antiretour 3/4’’ inox</td>
+      <td><a href="https://www.pompes-h2o.com/fr/clapet-anti-retour-inox/3501-clapet-a-disque-inox-316-3-pieces.html">Pompes H2O</a></td>
+      <td align="right">1</td>
+      <td align="right">46,67 €</td>
+      <td align="right">46,67 €</td>
+    </tr>
+    <tr>
+      <td>Clapet antiretour 1/2’’ inox</td>
+      <td><a href="https://www.pompes-h2o.com/fr/clapet-anti-retour-inox/3501-clapet-a-disque-inox-316-3-pieces.html">Pompes H2O</a></td>
+      <td align="right">1</td>
+      <td align="right">36,83 €</td>
+      <td align="right">36,83 €</td>
+    </tr>
+    <tr>
+      <td>Raccord gardena 3/4’’ M laiton</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">3,75 €</td>
+      <td align="right">3,75 €</td>
+    </tr>
+    <tr>
+      <td>Raccord cannelé 3/4’’ M inox</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">16</td>
+      <td align="right">3,75 €</td>
+      <td align="right">60,00 €</td>
+    </tr>
+    <tr>
+      <td>Raccord cannelé 3/4’’ F inox</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">5</td>
+      <td align="right">4,08 €</td>
+      <td align="right">20,40 €</td>
+    </tr>
+    <tr>
+      <td>Raccord cannelé 1/2’’ M inox</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">2</td>
+      <td align="right">3,00 €</td>
+      <td align="right">6,00 €</td>
+    </tr>
+    <tr>
+      <td>Coude inox 1/2’’ F/F</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">2,20 €</td>
+      <td align="right">2,20 €</td>
+    </tr>
+    <tr>
+      <td>Coude inox 3/4’’ F/F</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">2</td>
+      <td align="right">3,54 €</td>
+      <td align="right">7,08 €</td>
+    </tr>
+    <tr>
+      <td>Té inox 3/4’’ F</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">7</td>
+      <td align="right">3,92 €</td>
+      <td align="right">27,44 €</td>
+    </tr>
+    <tr>
+      <td>Té inox 1/2’’ F</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">3,08 €</td>
+      <td align="right">3,08 €</td>
+    </tr>
+    <tr>
+      <td>Réduction 3/4’’ M vers 1/2’’ M</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">2,00 €</td>
+      <td align="right">2,00 €</td>
+    </tr>
+    <tr>
+      <td>Mamelon inox 3/4’’ M/M</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">10</td>
+      <td align="right">2,21 €</td>
+      <td align="right">22,10 €</td>
+    </tr>
+    <tr>
+      <td>Mamelon inox 1/2’’ M/M</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">3</td>
+      <td align="right">1,83 €</td>
+      <td align="right">5,49 €</td>
+    </tr>
+    <tr>
+      <td>Colliers inox pour thermoclean</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">25</td>
+      <td align="right">0,79 €</td>
+      <td align="right">19,75 €</td>
+    </tr>
+    <tr>
+      <td>Colliers inox pour crystal</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">2</td>
+      <td align="right">0,75 €</td>
+      <td align="right">1,50 €</td>
+    </tr>
+    <tr>
+      <td>Cuve inox</td>
+      <td>Bergland</td>
+      <td align="right">2</td>
+      <td align="right">35,21 €</td>
+      <td align="right">70,42 €</td>
+    </tr>
+    <tr>
+      <td>Écrou 1’’ pour thermoplongeur</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">2,83 €</td>
+      <td align="right">2,83 €</td>
+    </tr>
+    <tr>
+      <td>Kit d’étanchéité 1’’</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">7,67 €</td>
+      <td align="right">7,67 €</td>
+    </tr>
+    <tr>
+      <td>Kit d’étanchéité 3/4’’</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">4</td>
+      <td align="right">3,67 €</td>
+      <td align="right">14,68 €</td>
+    </tr>
+    <tr>
+      <td>Écrou 3/4’’</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">4</td>
+      <td align="right">2,16 €</td>
+      <td align="right">8,64 €</td>
+    </tr>
+    <tr>
+      <td>Coude inox 3/4’’ M/F</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">2</td>
+      <td align="right">3,67 €</td>
+      <td align="right">7,34 €</td>
+    </tr>
+    <tr>
+      <td>Emporte pièce 1’’</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">13,75 €</td>
+      <td align="right">13,75 €</td>
+    </tr>
+    <tr>
+      <td>Emporte pièce 3/4’’</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">11,88 €</td>
+      <td align="right">11,88 €</td>
+    </tr>
+    <tr>
+      <td>Bobine 3/4’’</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">4</td>
+      <td align="right">3,21 €</td>
+      <td align="right">12,84 €</td>
+    </tr>
+    <tr>
+      <td>Kit d’étanchéité 1/2’’ pour sonde de température</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">3,00 €</td>
+      <td align="right">3,00 €</td>
+    </tr>
+    <tr>
+      <td>Écrou 1/2’’</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">1,92 €</td>
+      <td align="right">1,92 €</td>
+    </tr>
+    <tr>
+      <td>Détendeur intermédiaire air comprimé</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">33,25 €</td>
+      <td align="right">33,25 €</td>
+    </tr>
+    <tr>
+      <td>Raccord rapide air comprimé M</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">3,33 €</td>
+      <td align="right">3,33 €</td>
+    </tr>
+    <tr>
+      <td>Raccord rapide air comprimé F</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">9,92 €</td>
+      <td align="right">9,92 €</td>
+    </tr>
+    <tr>
+      <th align="left" colspan="4">Sous-total</th>
+      <th align="right">1 044,29 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Électronique</th>
+    </tr>
+    <tr>
+      <td>Arduino Uno</td>
+      <td><a href="https://boutique.semageek.com/fr/">Semageek</a></td>
+      <td align="right">1</td>
+      <td align="right">16,25 €</td>
+      <td align="right">16,25 €</td>
+    </tr>
+    <tr>
+      <td>Carte 16 relais</td>
+      <td><a href="https://boutique.semageek.com/fr/">Semageek</a></td>
+      <td align="right">1</td>
+      <td align="right">25,00 €</td>
+      <td align="right">25,00 €</td>
+    </tr>
+    <tr>
+      <td>Diodes 1N4148</td>
+      <td><a href="https://boutique.semageek.com/fr/">Semageek</a></td>
+      <td align="right">1</td>
+      <td align="right">0,83 €</td>
+      <td align="right">0,83 €</td>
+    </tr>
+    <tr>
+      <td>Câbles dupont</td>
+      <td><a href="https://boutique.semageek.com/fr/">Semageek</a></td>
+      <td align="right">3</td>
+      <td align="right">3,95 €</td>
+      <td align="right">11,85 €</td>
+    </tr>
+    <tr>
+      <td>Transformateur 220V 12V 120W</td>
+      <td><a href="https://www.amazon.fr/IKSACE-Transformateur-Alimentation-Adaptateur-bande/dp/B074V1RT3Q">Amazon</a></td>
+      <td align="right">1</td>
+      <td align="right">13,32 €</td>
+      <td align="right">13,32 €</td>
+    </tr>
+    <tr>
+      <td>Écran LCD</td>
+      <td><a href="https://www.amazon.fr/gp/product/B01N3B8JMN">Amazon</a></td>
+      <td align="right">1</td>
+      <td align="right">6,67 €</td>
+      <td align="right">6,67 €</td>
+    </tr>
+    <tr>
+      <td>Bouton sélecteur menu</td>
+      <td><a href="https://boutique.semageek.com/fr/896-encodeur-rotatif-24-positions-avec-validation-knob.html">Semageek</a></td>
+      <td align="right">1</td>
+      <td align="right">4,50 €</td>
+      <td align="right">4,50 €</td>
+    </tr>
+    <tr>
+      <td>Bouton arrêt d’urgence</td>
+      <td><a href="https://www.amazon.fr/gp/product/B00H3CY432">Amazon</a></td>
+      <td align="right">1</td>
+      <td align="right">2,31 €</td>
+      <td align="right">2,31 €</td>
+    </tr>
+    <tr>
+      <td>Bouton poussoir + LED</td>
+      <td><a href="https://boutique.semageek.com/fr/207-boutons-poussoirs-lumineux">Semageek</a></td>
+      <td align="right">1</td>
+      <td align="right">4,95 €</td>
+      <td align="right">4,95 €</td>
+    </tr>
+    <tr>
+      <td>Buzzer</td>
+      <td><a href="https://www.amazon.fr/GLOGLOW-électronique-tonalité-Piézo-électrique-Sonnerie/dp/B07F5LB8K9">Amazon</a></td>
+      <td align="right">1</td>
+      <td align="right">5,58 €</td>
+      <td align="right">5,58 €</td>
+    </tr>
+    <tr>
+      <td>Câble 2 fils pour électrovannes 0,75mm² x10m</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">5,83 €</td>
+      <td align="right">5,83 €</td>
+    </tr>
+    <tr>
+      <td>Câbles 1 fil 1,5mm² plusieurs couleurs</td>
+      <td>Récup</td>
+      <td align="right">1</td>
+      <td align="right">0,00 €</td>
+      <td align="right">0,00 €</td>
+    </tr>
+    <tr>
+      <td>Câble 3 fils alimentation souple 2,5mm² x5m</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">11,67 €</td>
+      <td align="right">11,67 €</td>
+    </tr>
+    <tr>
+      <td>Prise 220v mâle étanche</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">8,42 €</td>
+      <td align="right">8,42 €</td>
+    </tr>
+    <tr>
+      <td>Prise 220v femelle étanche</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">7,32 €</td>
+      <td align="right">7,32 €</td>
+    </tr>
+    <tr>
+      <td>Relai statique 40A</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">7,50 €</td>
+      <td align="right">7,50 €</td>
+    </tr>
+    <tr>
+      <td>Thermostat STC1000</td>
+      <td><a href="https://www.amazon.fr/Proster-Température-lApprobation-Réfrigérateur-Congélateur/dp/B00KYL3W32">Amazon</a></td>
+      <td align="right">1</td>
+      <td align="right">14,16 €</td>
+      <td align="right">14,16 €</td>
+    </tr>
+    <tr>
+      <td>Thermoplongeur 3,5kW</td>
+      <td><a href="microbrassage.com">Canard rouge</a></td>
+      <td align="right">1</td>
+      <td align="right">35,00 €</td>
+      <td align="right">35,00 €</td>
+    </tr>
+    <tr>
+      <td>Sonde température inox</td>
+      <td><a href="https://sondes-thermiques.fr/sonde-a-thermistance-ntc/3692-sonde-ntc-10k-raccord-g12-plongeur-50-a-400mm.html">Guilcor</a></td>
+      <td align="right">1</td>
+      <td align="right">9,80 €</td>
+      <td align="right">9,80 €</td>
+    </tr>
+    <tr>
+      <th align="left" colspan="4">Sous-total</th>
+      <th align="right">190,96 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Divers</th>
+    </tr>
+    <tr>
+      <td>Frais de port</td>
+      <td><a href=""></a></td>
+      <td align="right">1</td>
+      <td align="right">60,00 €</td>
+      <td align="right">60,00 €</td>
+    </tr>
+    <tr>
+      <th align="left" colspan="4">Sous-total</th>
+      <th align="right">60,00 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th align="left" colspan="4">Total</th>
+      <th align="right">1 482,25 €</th>
+    </tr>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Composant</th>
+      <th>Fournisseur</th>
+      <th>Quantité</th>
+      <th>PU (HT)</th>
+      <th>Total (HT)</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Structure</th>
+    </tr>
+    <tr>
+      <td>Cornière et carré acier</td>
+      <td>Ferrailleur</td>
+      <td align="right">1</td>
+      <td align="right">80,00 €</td>
+      <td align="right">80,00 €</td>
+    </tr>
+    <tr>
+      <td>Peinture acier</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">30,00 €</td>
+      <td align="right">30,00 €</td>
+    </tr>
+    <tr>
+      <td>Roulette</td>
+      <td>Récup</td>
+      <td align="right">4</td>
+      <td align="right">10,00 €</td>
+      <td align="right">40,00 €</td>
+    </tr>
+    <tr>
+      <td>Boîtier électrique</td>
+      <td>Leroy Merlin</td>
+      <td align="right">1</td>
+      <td align="right">37,00 €</td>
+      <td align="right">37,00 €</td>
+    </tr>
+    <tr>
+      <th colspan="4">Sous-total</th>
+      <th align="right">187,00 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5">Plomberie</th>
+    </tr>
+    <tr>
+      <td>Têtes de lavage</td>
+      <td>Maisonneuve</td>
+      <td align="right">2</td>
+      <td align="right">52,00 €</td>
+      <td align="right">104,00 €</td>
+    </tr>
+    <tr>
+      <td>Pompe Novax 20B</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>79,17 €</td>
+      <td>79,17 €</td>
+    </tr>
+    <tr>
+      <td>Electrovannes solénoide inox 3/4’’ 12V</td>
+      <td><a href="https://www.amazon.fr/U-S-Solid-Électrovanne-Normalement-entraînement/dp/B00DQ24GS6/">Amazon</a></td>
+      <td>6</td>
+      <td>26,46 €</td>
+      <td>158,76 €</td>
+    </tr>
+    <tr>
+      <td>Electrovannes solénoide inox 1/2’’ 12V</td>
+      <td><a href="https://www.amazon.fr/U-S-Solid-%C3%89lectrovanne-Normalement-entra%C3%AEnement/dp/B00APDA6Z6/">Amazon</a></td>
+      <td>2</td>
+      <td>26,66 €</td>
+      <td>53,32 €</td>
+    </tr>
+    <tr>
+      <td>Tuyau thermoclean 100 19mm x 20m</td>
+      <td><a href="http://www.raccordspro.com/fr/553-tuyau-thermoclean-100.html">Raccords pro</a></td>
+      <td>1</td>
+      <td>174,20 €</td>
+      <td>174,20 €</td>
+    </tr>
+    <tr>
+      <td>Tuyau crystal 12mm x 5m</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>9,08 €</td>
+      <td>9,08 €</td>
+    </tr>
+    <tr>
+      <td>Clapet antiretour 3/4’’ inox</td>
+      <td><a href="https://www.pompes-h2o.com/fr/clapet-anti-retour-inox/3501-clapet-a-disque-inox-316-3-pieces.html">Pompes H2O</a></td>
+      <td>1</td>
+      <td>46,67 €</td>
+      <td>46,67 €</td>
+    </tr>
+    <tr>
+      <td>Clapet antiretour 1/2’’ inox</td>
+      <td><a href="https://www.pompes-h2o.com/fr/clapet-anti-retour-inox/3501-clapet-a-disque-inox-316-3-pieces.html">Pompes H2O</a></td>
+      <td>1</td>
+      <td>36,83 €</td>
+      <td>36,83 €</td>
+    </tr>
+    <tr>
+      <td>Raccord gardena 3/4’’ M laiton</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>3,75 €</td>
+      <td>3,75 €</td>
+    </tr>
+    <tr>
+      <td>Raccord cannelé 3/4’’ M inox</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>16</td>
+      <td>3,75 €</td>
+      <td>60,00 €</td>
+    </tr>
+    <tr>
+      <td>Raccord cannelé 3/4’’ F inox</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>5</td>
+      <td>4,08 €</td>
+      <td>20,40 €</td>
+    </tr>
+    <tr>
+      <td>Raccord cannelé 1/2’’ M inox</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>2</td>
+      <td>3,00 €</td>
+      <td>6,00 €</td>
+    </tr>
+    <tr>
+      <td>Coude inox 1/2’’ F/F</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>2,20 €</td>
+      <td>2,20 €</td>
+    </tr>
+    <tr>
+      <td>Coude inox 3/4’’ F/F</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>2</td>
+      <td>3,54 €</td>
+      <td>7,08 €</td>
+    </tr>
+    <tr>
+      <td>Té inox 3/4’’ F</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>7</td>
+      <td>3,92 €</td>
+      <td>27,44 €</td>
+    </tr>
+    <tr>
+      <td>Té inox 1/2’’ F</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>3,08 €</td>
+      <td>3,08 €</td>
+    </tr>
+    <tr>
+      <td>Réduction 3/4’’ M vers 1/2’’ M</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>2,00 €</td>
+      <td>2,00 €</td>
+    </tr>
+    <tr>
+      <td>Mamelon inox 3/4’’ M/M</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>10</td>
+      <td>2,21 €</td>
+      <td>22,10 €</td>
+    </tr>
+    <tr>
+      <td>Mamelon inox 1/2’’ M/M</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>3</td>
+      <td>1,83 €</td>
+      <td>5,49 €</td>
+    </tr>
+    <tr>
+      <td>Colliers inox pour thermoclean</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>25</td>
+      <td>0,79 €</td>
+      <td>19,75 €</td>
+    </tr>
+    <tr>
+      <td>Colliers inox pour crystal</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>2</td>
+      <td>0,75 €</td>
+      <td>1,50 €</td>
+    </tr>
+    <tr>
+      <td>Cuve inox</td>
+      <td>Bergland</td>
+      <td>2</td>
+      <td>35,21 €</td>
+      <td>70,42 €</td>
+    </tr>
+    <tr>
+      <td>Écrou 1’’ pour thermoplongeur</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>2,83 €</td>
+      <td>2,83 €</td>
+    </tr>
+    <tr>
+      <td>Kit d’étanchéité 1’’</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>7,67 €</td>
+      <td>7,67 €</td>
+    </tr>
+    <tr>
+      <td>Kit d’étanchéité 3/4’’</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>4</td>
+      <td>3,67 €</td>
+      <td>14,68 €</td>
+    </tr>
+    <tr>
+      <td>Écrou 3/4’’</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>4</td>
+      <td>2,16 €</td>
+      <td>8,64 €</td>
+    </tr>
+    <tr>
+      <td>Coude inox 3/4’’ M/F</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>2</td>
+      <td>3,67 €</td>
+      <td>7,34 €</td>
+    </tr>
+    <tr>
+      <td>Emporte pièce 1’’</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>13,75 €</td>
+      <td>13,75 €</td>
+    </tr>
+    <tr>
+      <td>Emporte pièce 3/4’’</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>11,88 €</td>
+      <td>11,88 €</td>
+    </tr>
+    <tr>
+      <td>Bobine 3/4’’</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>4</td>
+      <td>3,21 €</td>
+      <td>12,84 €</td>
+    </tr>
+    <tr>
+      <td>Kit d’étanchéité 1/2’’ pour sonde de température</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>3,00 €</td>
+      <td>3,00 €</td>
+    </tr>
+    <tr>
+      <td>Écrou 1/2’’</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>1,92 €</td>
+      <td>1,92 €</td>
+    </tr>
+    <tr>
+      <td>Détendeur intermédiaire air comprimé</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>33,25 €</td>
+      <td>33,25 €</td>
+    </tr>
+    <tr>
+      <td>Raccord rapide air comprimé M</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>3,33 €</td>
+      <td>3,33 €</td>
+    </tr>
+    <tr>
+      <td>Raccord rapide air comprimé F</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>9,92 €</td>
+      <td>9,92 €</td>
+    </tr>
+    <tr>
+      <th colspan="4">Sous-total</th>
+      <th>1 044,29 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5">Électronique</th>
+    </tr>
+    <tr>
+      <td>Arduino Uno</td>
+      <td><a href="https://boutique.semageek.com/fr">Semageek</a></td>
+      <td>1</td>
+      <td>16,25 €</td>
+      <td>16,25 €</td>
+    </tr>
+    <tr>
+      <td>Carte 16 relais</td>
+      <td><a href="https://boutique.semageek.com/fr">Semageek</a></td>
+      <td>1</td>
+      <td>25,00 €</td>
+      <td>25,00 €</td>
+    </tr>
+    <tr>
+      <td>Diodes 1N4148</td>
+      <td><a href="https://boutique.semageek.com/fr">Semageek</a></td>
+      <td>1</td>
+      <td>0,83 €</td>
+      <td>0,83 €</td>
+    </tr>
+    <tr>
+      <td>Câbles dupont</td>
+      <td><a href="https://boutique.semageek.com/fr">Semageek</a></td>
+      <td>3</td>
+      <td>3,95 €</td>
+      <td>11,85 €</td>
+    </tr>
+    <tr>
+      <td>Transformateur 220V 12V 120W</td>
+      <td><a href="https://www.amazon.fr/IKSACE-Transformateur-Alimentation-Adaptateur-bande/dp/B074V1RT3Q">Amazon</a></td>
+      <td>1</td>
+      <td>13,32 €</td>
+      <td>13,32 €</td>
+    </tr>
+    <tr>
+      <td>Écran LCD</td>
+      <td><a href="https://www.amazon.fr/gp/product/B01N3B8JMN">Amazon</a></td>
+      <td>1</td>
+      <td>6,67 €</td>
+      <td>6,67 €</td>
+    </tr>
+    <tr>
+      <td>Bouton sélecteur menu</td>
+      <td><a href="https://boutique.semageek.com/fr">Semageek</a></td>
+      <td>1</td>
+      <td>4,50 €</td>
+      <td>4,50 €</td>
+    </tr>
+    <tr>
+      <td>Bouton arrêt d’urgence</td>
+      <td><a href="https://www.amazon.fr/gp/product/B00H3CY432">Amazon</a></td>
+      <td>1</td>
+      <td>2,31 €</td>
+      <td>2,31 €</td>
+    </tr>
+    <tr>
+      <td>Bouton poussoir + LED</td>
+      <td><a href="https://boutique.semageek.com/fr">Semageek</a></td>
+      <td>1</td>
+      <td>4,95 €</td>
+      <td>4,95 €</td>
+    </tr>
+    <tr>
+      <td>Buzzer</td>
+      <td><a href="https://www.amazon.fr/GLOGLOW-électronique-tonalité-Piézo-électrique-Sonnerie/dp/B07F5LB8K9">Amazon</a></td>
+      <td>1</td>
+      <td>5,58 €</td>
+      <td>5,58 €</td>
+    </tr>
+    <tr>
+      <td>Câble 2 fils pour électrovannes 0,75mm² x10m</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>5,83 €</td>
+      <td>5,83 €</td>
+    </tr>
+    <tr>
+      <td>Câbles 1 fil 1,5mm² plusieurs couleurs</td>
+      <td>Récup</td>
+      <td>1</td>
+      <td>0,00 €</td>
+      <td>0,00 €</td>
+    </tr>
+    <tr>
+      <td>Câble 3 fils alimentation souple 2,5mm² x5m</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>11,67 €</td>
+      <td>11,67 €</td>
+    </tr>
+    <tr>
+      <td>Prise 220v mâle étanche</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>8,42 €</td>
+      <td>8,42 €</td>
+    </tr>
+    <tr>
+      <td>Prise 220v femelle étanche</td>
+      <td>Leroy Merlin</td>
+      <td>1</td>
+      <td>7,32 €</td>
+      <td>7,32 €</td>
+    </tr>
+    <tr>
+      <td>Relai statique 40A</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>7,50 €</td>
+      <td>7,50 €</td>
+    </tr>
+    <tr>
+      <td>Thermostat STC1000</td>
+      <td><a href="https://www.amazon.fr/Proster-Température-lApprobation-Réfrigérateur-Congélateur/dp/B00KYL3W32">Amazon</a></td>
+      <td>1</td>
+      <td>14,16 €</td>
+      <td>14,16 €</td>
+    </tr>
+    <tr>
+      <td>Thermoplongeur 3,5kW</td>
+      <td><a href="http://microbrassage.com">Canard rouge</a></td>
+      <td>1</td>
+      <td>35,00 €</td>
+      <td>35,00 €</td>
+    </tr>
+    <tr>
+      <td>Sonde température inox</td>
+      <td><a href="https://sondes-thermiques.fr/sonde-a-thermistance-ntc/3692-sonde-ntc-10k-raccord-g12-plongeur-50-a-400mm.html">Guilcor</a></td>
+      <td>1</td>
+      <td>9,80 €</td>
+      <td>9,80 €</td>
+    </tr>
+    <tr>
+      <th colspan="4">Sous-total</th>
+      <th>190,96 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="5">Divers</th>
+    </tr>
+    <tr>
+      <td>Frais de port</td>
+      <td></td>
+      <td>1</td>
+      <td>60,00 €</td>
+      <td>60,00 €</td>
+    </tr>
+    <tr>
+      <th colspan="4">Sous-total</th>
+      <th>60,00 €</th>
+    </tr>
+    <tr>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <th colspan="4">Total</th>
+      <th>1 482,25 €</th>
+    </tr>
+  </tbody>
+</table>
 
 ## Améliorations
 
