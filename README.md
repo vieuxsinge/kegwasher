@@ -243,6 +243,9 @@ L'évier fixé sur le dessus de la laveuse était prévu pour intégrer une boul
 
 ## Composants utilisés et coût
 
+Cette liste correspond à peu près à ce que nous avons acheté pour construire notre laveuse.
+Les prix ont certainement évolué depuis, donc à prendre avec des pincettes.
+
 <table>
   <tr>
     <th>Composant</th>
