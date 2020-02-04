@@ -186,6 +186,8 @@ Vous avez le choix entre :
 
 Il faut ensuite [installer les dépendances](https://www.arduino.cc/en/Guide/Libraries) à notre programme, à savoir les bibliothèques  `Bounce2` et `LiquidCrystal_I2C`. Ces bibliothèques sont normalement disponibles depuis l'interface de l'IDE arduino.
 
+Si vous rencontrez des problèmes avec la bibliothèque `LiquidCrystal_I2C`, il est préférable d'importer directement celle-ci depuis son [repository Github](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library). 
+
 Une fois l'environnement arduino installé, vous pouvez brancher l'arduino en USB à votre ordinateur.
 
 Le programme à installer sur l'arduino tient en 1 seul fichier `kegwasher.ino`. 
