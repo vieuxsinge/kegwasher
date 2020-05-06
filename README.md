@@ -10,6 +10,7 @@ Ce dépôt contient la partie technique pour la fabrication d'une laveuse de fû
 * [Composants utilisés et coût](#composants-utilisés-et-coût)
 * [Améliorations](#améliorations)
 * [Références](#références)
+* [Questions fréquentes](#questions-fréquentes)
 
 ## Démo
 
@@ -726,6 +727,15 @@ Les prix ont certainement évolué depuis, donc à prendre avec des pincettes.
 
 À venir
 
+## Questions fréquentes
 
+### LiquidCrystal_I2C
 
+Le programme utilise une version particulière de la bibliothèque LiquidCrystal_I2C.
+
+La bibliothèque à utiliser est celle-ci :
+
+https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
+
+Si l'erreur persiste, il est possible qu'il y ait un conflit entre plusieurs bibliothèques. Il faut alors désinstaller toutes les versions de LiquidCrystal_I2C qui ont été précédemment installées sur la machine.
 
