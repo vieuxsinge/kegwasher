@@ -181,7 +181,7 @@ int mode_full_time;
 int step;
 int step_start_time;
 
-void lcd_printf(char *fmt, ...)
+void lcd_printf(const char *fmt, ...)
 {
   char buf1[17];
   va_list args;
