@@ -3,10 +3,11 @@
 #include <Bounce2.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
+#include <RotaryEncoder.h>
 
 #define PIN_BUZZER                A0
-#define PIN_BUTTON_UP             A1
-#define PIN_BUTTON_DOWN           A2
+#define PIN_MENUSELECT_1          A1
+#define PIN_MENUSELECT_2          A2
 #define PIN_BUTTON_ACTION         A3
 #define PIN_VALVE_AIR             2
 #define PIN_VALVE_CO2             3
@@ -121,9 +122,8 @@ mode_t MODES[] = {
 
 int MODES_NUMBER = sizeof(MODES) / sizeof(mode_t);
 
-Bounce buttonUp = Bounce(); 
-Bounce buttonDown = Bounce(); 
-Bounce buttonAction = Bounce(); 
+RotaryEncoder menuselect(PIN_MENUSELECT_1, PIN_MENUSELECT_2);
+Bounce buttonAction = Bounce();
 
 LiquidCrystal_I2C lcd(DISPLAY_I2C_ADDRESS, 16, 2);
 
@@ -188,32 +188,22 @@ void select()
 
 void select_update()
 {
-  int new_mode = mode;
-  int inc;
+  int new_mode;
+  int pos;
 
-  buttonUp.update();
-  if( buttonUp.fell() ) {
-    buttonDown.update();
-    inc = buttonDown.fell() ? -1 : 1;
-    new_mode += inc;
+  menuselect.tick();
+  pos = menuselect.getPosition();
+  new_mode = pos % MODES_NUMBER;
+  
+  if( new_mode != mode ) {
+    mode = new_mode;
+    lcd.setCursor(0, 1);
+    lcd_printf("%c %s", CHAR_UP_DOWN, MODES[mode].name);
   }
   
   buttonAction.update();
   if( buttonAction.fell() ) {
     state = STATE_RUN;
-  }
-
-  if( new_mode < 0 ) {
-    new_mode = MODES_NUMBER - 1;
-  }
-  else if( new_mode >= MODES_NUMBER ) {
-    new_mode = 0;
-  }
-
-  if( new_mode != mode ) {
-    mode = new_mode;
-    lcd.setCursor(0, 1);
-    lcd_printf("%c %s", CHAR_UP_DOWN, MODES[mode].name);
   }
 }
 
@@ -376,8 +366,6 @@ void cancel()
 
 void setup()
 {
-  pinMode(PIN_BUTTON_UP, INPUT_PULLUP);
-  pinMode(PIN_BUTTON_DOWN, INPUT_PULLUP);
   pinMode(PIN_BUTTON_ACTION, INPUT_PULLUP);
   pinMode(PIN_VALVE_AIR, OUTPUT);
   pinMode(PIN_VALVE_CO2, OUTPUT);
@@ -395,12 +383,7 @@ void setup()
   digitalWrite(PIN_LED, LOW);
   digitalWrite(PIN_BUZZER, LOW);
 
-  buttonUp.attach(PIN_BUTTON_UP);
-  buttonDown.attach(PIN_BUTTON_DOWN);
   buttonAction.attach(PIN_BUTTON_ACTION);
-
-  buttonUp.interval(10);
-  buttonDown.interval(10);
   buttonAction.interval(10);
 
   lcd.init();

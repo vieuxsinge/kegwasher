@@ -185,9 +185,7 @@ Vous avez le choix entre :
 1. [utiliser l'IDE arduino](https://www.arduino.cc/en/Main/Software) : un logiciel graphique simple pour les débutants
 2. [utiliser Arduino-Makefile](https://github.com/sudar/Arduino-Makefile) : un outil en ligne de commande pour les utilisateurs avancés
 
-Il faut ensuite [installer les dépendances](https://www.arduino.cc/en/Guide/Libraries) à notre programme, à savoir les bibliothèques  `Bounce2` et `LiquidCrystal_I2C`. Ces bibliothèques sont normalement disponibles depuis l'interface de l'IDE arduino.
-
-Si vous rencontrez des problèmes avec la bibliothèque `LiquidCrystal_I2C`, il est préférable d'importer directement celle-ci depuis son [repository Github](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library). 
+Il faut ensuite [installer les dépendances](https://www.arduino.cc/en/Guide/Libraries) à notre programme, à savoir les bibliothèques  `Bounce2`, `LiquidCrystal_I2C` et `RotaryEncoder`. Ces bibliothèques sont disponibles depuis l'interface de l'IDE arduino.
 
 Une fois l'environnement arduino installé, vous pouvez brancher l'arduino en USB à votre ordinateur.
 
