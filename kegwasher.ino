@@ -53,7 +53,7 @@ typedef struct step_s {
 } step_t;
 
 typedef struct mode_s {
-  char *name;
+  const char *name;
   step_t *steps;
 } mode_t;
 
