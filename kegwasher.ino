@@ -403,8 +403,8 @@ void setup()
   buttonDown.interval(10);
   buttonAction.interval(10);
 
-  lcd.begin();
-  lcd.setBacklight(HIGH);
+  lcd.init();
+  lcd.backlight();
   lcd.createChar(CHAR_UP_DOWN, CHAR_UP_DOWN_SETUP);
   
   mode = EEPROM.read(EEPROM_ADDRESS_MODE);
