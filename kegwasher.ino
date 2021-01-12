@@ -84,24 +84,6 @@ step_t STEPS_WASH_KEG[] = {
   {CONFIG_END, 0}
 };
 
-step_t STEPS_DRAFT_RINCE[] = {
-  {CONFIG_RINCE, 30},
-  {CONFIG_RINCE_PURGE, 10},
-  {CONFIG_END, 0}
-};
-
-step_t STEPS_DRAFT_SANITIZER[] = {
-  {CONFIG_SANITIZE, 30},
-  {CONFIG_SANITIZE_PURGE, 10},
-  {CONFIG_END, 0}
-};
-
-step_t STEPS_DRAFT_CLEANER[] = {
-  {CONFIG_CLEAN, 30},
-  {CONFIG_CLEAN_PURGE, 10},
-  {CONFIG_END, 0}
-};
-
 step_t STEPS_DRAIN_KEG[] = {
   {CONFIG_DRAIN, 10},
   {CONFIG_RINCE_PURGE, 60},
@@ -130,9 +112,6 @@ step_t STEPS_FILL_CLEANER[] = {
 
 mode_t MODES[] = {
   {"Lavage fut", STEPS_WASH_KEG},
-  {"Tireuse rincage", STEPS_DRAFT_RINCE},
-  {"Tireuse desinf.", STEPS_DRAFT_SANITIZER},
-  {"Tireuse deter.", STEPS_DRAFT_CLEANER},
   {"Vidange fut", STEPS_DRAIN_KEG},
   {"Vidange desinf.", STEPS_DRAIN_SANITIZER},
   {"Vidange deter.", STEPS_DRAIN_CLEANER},
