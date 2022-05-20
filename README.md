@@ -154,7 +154,7 @@ Les câbles utilisés pour les alimentations électriques doivent avoir une sect
 
 Câbles dupont pour :
 
-- signaux électroniques 
+- signaux électroniques
 - alimentation 5V arduino
 
 Câbles électriques 0,5mm² pour :
@@ -189,7 +189,7 @@ Il faut ensuite [installer les dépendances](https://www.arduino.cc/en/Guide/Lib
 
 Une fois l'environnement arduino installé, vous pouvez brancher l'arduino en USB à votre ordinateur.
 
-Le programme à installer sur l'arduino tient en 1 seul fichier `kegwasher.ino`. 
+Le programme à installer sur l'arduino tient en 1 seul fichier `kegwasher.ino`.
 
 Pour les utilisateurs de l'IDE arduino, il faudra simplement ouvrir ce fichier et aller dans le menu Croquis > Téléverser.
 Pour les utilisateurs d'Arduino-Makefile, il faudra configurer le port de l'arduino dans le fichier Makefile et vous pourrez ensuite exécuter les commandes suivantes :
@@ -737,3 +737,14 @@ https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
 
 Si l'erreur persiste, il est possible qu'il y ait un conflit entre plusieurs bibliothèques. Il faut alors désinstaller toutes les versions de LiquidCrystal_I2C qui ont été précédemment installées sur la machine.
 
+### Est-ce que vous utilisez toujours cette laveuse ?
+
+(au 20 Mai 2022) nous utilisons toujours cette laveuse, et près de 50 brasseries l'ont aussi fabriquée ! Elle tourne plutôt bien, même si nous avons parfois quelques retours de fûts problématiques (environ une dizaine pour une saison, 1% de nos sorties, au vu des ~1000 fûts qu'on passe chaque année.
+
+### Quelles sont les améliorations / changements que vous avez faits ?
+
+Nous avons fait peu de changement sur la laveuse depuis sa création, mais voici une petite liste :
+
+- Nous avons ajouté des vannes de vidange sur les cuves pour pouvoir les vider plus facilement et manuellement ;
+- Nous avons changé de modèle de pompe pour en mettre une plus puissante pour être sur que les liquides soient envoyés suffisamment puissamment dans les fûts.
+- Nous sommes en train (20 mai 2022) d'installer une centrale vapeur dans la brasserie, et l'idée est de remplacer les cycles d'acide par de la vapeur d'eau, ce qui devrait permettre d'avoir une désinfection plus efficace.
